@@ -522,6 +522,7 @@ body {
   }
 }
 .width {
+  width: 100%;
   max-width: 39rem;
 }
 @media (max-width: 480px) {
@@ -965,6 +966,7 @@ article .content .caption {
   width: 100%;
   margin: 0 auto 1rem auto;
   vertical-align: top;
+  text-align: center;
 }
 #footer ul {
   margin: 0;
