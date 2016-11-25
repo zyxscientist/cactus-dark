@@ -945,14 +945,16 @@ article .content .caption {
   font-size: 1.5em;
   line-height: 1.25;
 }
-.article-tag {
-  display: inline;
-}
-.article-tag:before {
-  content: "|";
-}
 .article-tag .tag-link:before {
   content: "#";
+}
+@media (min-width: 480px) {
+  .article-tag {
+    display: inline;
+  }
+  .article-tag:before {
+    content: "|";
+  }
 }
 .blog-post-comments {
   margin-top: 4rem;
@@ -1000,7 +1002,7 @@ article .content .caption {
   line-height: 20px;
   vertical-align: middle;
 }
-@media (min-width: 480px) {
+@media (min-width: 39rem) {
   #footer {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1084,6 +1086,7 @@ pre {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   border: 1px dotted #666;
+  overflow-x: auto;
 }
 code {
   -webkit-border-radius: 2px;
