@@ -1,9 +1,9 @@
 nav:
   Home: /
-  About: /about/
+  About: /about/about.html
   Writing: /archives/
-  Projects: http://github.com/probberechts
-
+  Projects: https://dribbble.com/Zhuyuxuan
+  
 projects_url: http://github.com/probberechts
 
 customize:
@@ -39,7 +39,7 @@ rss: false
 # Plugins
 plugins:
     disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+    google_analytics: UA-75859600-1 # UA-86660611-1 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
 miscellaneous:
