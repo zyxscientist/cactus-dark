@@ -3,19 +3,20 @@ nav:
   About: /about/about.html
   Writing: /archives/
   Projects: https://dribbble.com/Zhuyuxuan
-  
+  知乎专栏: https://zhuanlan.zhihu.com/designcoder
+
 projects_url: http://github.com/probberechts
 
 customize:
     gravatar:
-        email: 
+        email:
     logo:
         enabled: true
         width: 50
         height: 50
         url: /images/logo.png
         gravatar: false
-    favicon: 
+    favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
         url: /images/favicon.ico
@@ -39,7 +40,7 @@ rss: false
 # Plugins
 plugins:
     disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-75859600-1 # UA-86660611-1 # enter the tracking ID for your Google Analytics
+    google_analytics: UA-75859600-1 # 上一个 UA-86660611-1 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
 miscellaneous:
